@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_discover"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Discover" />
+
+        <!--
+                <item
+                    android:id="@+id/nav_my_account"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="My Account"
+                   />
+
+                <item
+                    android:id="@+id/nav_orders"
+                    android:icon="@android:drawable/ic_menu_agenda"
+                    android:title="Orders" />
+
+        -->
+        <item
+            android:id="@+id/nav_nightlife"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Nightlife" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_cuisine"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Cuisine" />
+
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Fashion" />
+
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Travel" />
+
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@android:drawable/ic_menu_compass"
+
+            android:title="Entertainiment" />
+
+        <!--       <item
+                   android:id="@+id/nav_chats"
+                   android:icon="@drawable/ic_person_add"
+                   app:actionLayout="@layout/menu_item_counter"
+                   android:title="Chats" />
+
+               <item
+                   android:id="@+id/nav_chats"
+                   app:actionLayout="@layout/menu_item_counter"
+                   android:icon="@android:drawable/ic_menu_add"
+                   android:title="Chats"
+                   app:showAsAction="always"/>
+       -->
+
+    </group>
+
+    <group android:id="@+id/therest">
+
+        <item
+            android:id="@+id/nav_about"
+
+            android:title="About" />
+
+
+        <item
+            android:id="@+id/nav_settings"
+
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_help"
+
+            android:title="Help" />
+
+    </group>
+
+</menu>
